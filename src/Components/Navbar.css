@@ -1,0 +1,32 @@
+.prenavbar{
+  display: grid;
+  background-color: black;
+  grid-template-columns:  4fr 3fr;
+  color: white;
+  height: 50px;
+}
+.prenavbar > div{
+padding: 1vmax 4vmax; 
+}
+.prenavbar >div > a{
+  color:rgb(207, 201, 201);
+  margin: 30px;
+ text-decoration:none ;
+}
+.prenavbar >div > a:hover{
+  color: rgb(235, 132, 132);
+}
+.prenavbar >div >i{
+  color: aliceblue;
+  margin: 25px;
+}
+.prenavbar > div >span{
+color: grey;
+  font-weight: 40;
+  font-size: 15px;
+}
+   
+      
+  
+   
+   
