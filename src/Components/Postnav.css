@@ -1,0 +1,52 @@
+.nav{
+    display: flex;
+    background-color: rgb(252, 249, 249);
+    flex-direction: rows;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  
+}
+.logo{
+    display: flex;
+    background-color:palegreen ;
+    margin-right: 150px;
+    left: 0px;
+}
+
+.nav >a{
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav > a:hover{
+    color: rgb(228, 81, 81);
+    border-bottom-style: solid;
+}
+.searchbox{
+    justify-self: flex-end;
+    margin-left: 180px;
+}
+.searchbox> input{
+    border: none;
+   border-bottom:1px  solid black;
+   outline: none;
+   width: 180px;
+   font-size: 16px;
+   color: rgb(39, 38, 38);
+}
+.sliderimg
+     {
+        opacity: 600; 
+        width: fit-content;
+        height: 500px;
+        padding-left: 239px;
+        position: relative;
+       }
+   
+
+@media all and (max-width:600px){
+    
+}
+    
+
