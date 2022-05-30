@@ -1,0 +1,9 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forget{
+    display: flex;
+    flex-direction: column;
+}
